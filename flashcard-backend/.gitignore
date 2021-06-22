@@ -1,0 +1,9 @@
+my-data
+node_modules
+# package directories
+
+jspm_packages
+
+# Serverless directories
+.serverless
+scripts

@@ -1,0 +1,34 @@
+{
+  "name": "flashcard-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": ". scripts/env.sh && sls deploy"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "serverless": "^2.35.0"
+  },
+  "dependencies": {
+    "@vendia/serverless-express": "^4.3.4",
+    "aws-sdk": "^2.884.0",
+    "axios": "^0.21.1",
+    "connect": "^3.7.0",
+    "connect-dynamodb": "^2.0.4",
+    "cors": "^2.8.5",
+    "deploy": "^1.0.3",
+    "dynamodb-store": "^1.2.0",
+    "express-busboy": "^8.0.0",
+    "express-session": "^1.17.1",
+    "express.js": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "mime-types": "^2.1.30",
+    "mimetype": "^0.0.8",
+    "mysql2": "^2.2.5",
+    "serverless-http": "^2.7.0",
+    "serverless-parameters": "^0.1.0",
+    "uuid": "^8.3.2"
+  }
+}
